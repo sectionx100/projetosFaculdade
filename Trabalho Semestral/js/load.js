@@ -19,7 +19,9 @@ var loadState = {
 		
 		game.load.audio('getitem','sfx/getitem.ogg');
 		game.load.audio('loseitem','sfx/loseitem.ogg');
-		game.load.audio('music','sfx/music.ogg');
+        game.load.audio('music','sfx/music.ogg');
+        
+        game.physics.startSystem(Phaser.Physics.ARCADE);
 	},
 	
 	create: function(){
